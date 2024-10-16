@@ -1,4 +1,4 @@
-const Product = require('../models/Product');
+const Product = require('../models/product');
 const { upload } = require('cloudinary').v2; // Ensure you are using the correct method for uploads
 const cloudinary = require('cloudinary').v2;
 const mongoose = require('mongoose'); // Import mongoose if not already done

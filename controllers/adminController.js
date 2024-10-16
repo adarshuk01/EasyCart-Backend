@@ -1,7 +1,7 @@
 // controllers/adminController.js
 
 const User = require('../models/user'); // User model
-const Product=require('../models/Product');
+const Product=require('../models/product');
 const Order=require('../models/orders')
 
 const bcrypt = require('bcrypt'); // For password hashing

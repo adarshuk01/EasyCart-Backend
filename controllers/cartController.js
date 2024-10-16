@@ -1,5 +1,5 @@
 const Cart = require('../models/myCart');
-const Product = require('../models/Product'); // Ensure you import the product model
+const Product = require('../models/product'); // Ensure you import the product model
 
 // Add item to cart
 exports.addToCart = async (req, res) => {
