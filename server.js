@@ -15,7 +15,7 @@ app.use(express.json());
 
 // Enable CORS for specific origin
 const corsOptions = {
-  origin: 'http://localhost:3000', // Replace with your frontend URL
+  origin: 'https://easycart-frontend.onrender.com'||'http://localhost:3000', // Replace with your frontend URL
   methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
   credentials: true, // Allow credentials (like cookies) to be sent
 };
